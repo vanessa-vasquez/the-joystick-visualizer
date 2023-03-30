@@ -1,0 +1,35 @@
+@font-face {
+  font-family: QuickPencilRegular;
+  src: url(./assets/QuickPencilRegular-0R59.ttf);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: QuickPencilRegular;
+  font-size: 50px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  font-family: QuickPencilRegular;
+  font-size: 35px;
+  padding: 5px 15px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  cursor: grab;
+  transform: scale(1.05);
+}
+
+#sketch-holder {
+  margin-left: 10px;
+  margin-right: 10px;
+}
